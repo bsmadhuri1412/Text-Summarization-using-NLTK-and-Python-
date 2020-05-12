@@ -1,0 +1,93 @@
+html, header, body{
+		height: 100%;
+		width: 100%;
+	}
+
+div{
+	display: block;
+	}
+
+h1, h2, h3, h4, h5, h6{
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-weight: 700;
+	}
+	p{
+		font-size: 20px;
+	}
+ul{
+		display: block;
+	}
+.container{
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+.footer{
+		padding: 12px 0 12px 0;
+		}
+		.gray-bg{
+			background-color: #f6f6f6;
+		}
+		.text-center{
+			text-align: center !important;
+		}
+		.footer .social li a{
+			border: 1px solid #222;
+			display: block;
+			font-size: 14px;
+			height: 30px;
+			line-height: 28px;
+			text-align: center;
+			width: 30px;
+			transform: rotate(45deg);
+		}
+		.transition{
+			color: gray;
+			background: 0 0 ;
+			transition: all .3s ease-in-out;
+		}
+		.footer .weblinks-inline{
+			list-style: none;
+			padding-left: 0;
+		}
+		.marg_bot{
+			margin-bottom: 30px !important;
+		}
+		.weblinks-inline li{
+			display: inline;
+			font-size: 200%;
+			margin: 1%;
+			padding: 1% 1% 1% 1%;
+			border-radius: 8px;
+		}
+		.copyright{
+			font-size: 15px;
+		}
+
+p.a {
+  white-space: wrap;
+  width: 200%;
+  height:50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-y: scroll;
+  word-wrap: break-word;
+}
+
+div.a:hover {
+  overflow: visible;
+}
+
+.out {
+border: 1px solid ;
+padding: 19px 39px 18px 39px;
+text-align: center;
+}
+
+
+.content {
+  padding: 100px 0;
+  margin: 50px auto 0 auto;
+  width: 80%;
+}
